@@ -11,6 +11,7 @@
     width: calc(100vw - 300px);
     padding-left: 50px;
     padding-right: 50px;
+    min-width: 350px;
 }
 
 .item-label {

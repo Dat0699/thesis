@@ -5,4 +5,74 @@
     left: 5%;
     width: calc(100% - 170px);
     background-color: white;
+    
+}
+
+
+.doctorHeader{
+    width: calc(100% - 510px) !important;
+    max-height: 62px;
+}
+
+@media all and (min-width: 1250px){
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 500px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+
+    .smallHeaderPatient {
+        height: 235px !important;
+    }
+}
+
+@media all and (max-width: 1700px){
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 500px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+
+    .smallHeaderPatient {
+        height: 235px !important;
+    }
+
+    .doctorHeader{
+       gap: 0px !important;
+       justify-content: space-evenly;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 1250px){
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 500px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+
+    .doctorHeader{
+       gap: 150px !important;
+    }
+
+    .smallHeaderPatient {
+        height: 505px !important;
+    }
+}
+
+@media all and (min-width: 250px) and (max-width: 500px){
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 300px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+}
+
+
+
+.smallHeaderModalPatient {
+    height: 10px;
 }

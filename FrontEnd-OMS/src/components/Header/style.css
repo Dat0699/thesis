@@ -2,7 +2,7 @@
     position: sticky;
     top: 10;
     background: linear-gradient(90deg, rgba(93,224,230,1) 35%, rgba(0,74,173,1) 100%);
-    width: 100%;
+    width: 100vw !important;
     height: 80px;
     z-index: 99;
     display: flex;

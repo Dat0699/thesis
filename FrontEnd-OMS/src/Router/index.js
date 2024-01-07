@@ -3,6 +3,8 @@ import DoctorPage from '../pages/Doctor';
 import PatientPage from '../pages/Patient';
 import Dashboard from '../pages/Dashboard';
 import Setting from '../pages/Setting';
+import PatientLogin from '../pages/PatientLogin';
+import PatientView from '../pages/PatientView';
 
 let path = window.location.pathname;
 
@@ -15,7 +17,9 @@ const RouteConfig = {
     '/doctor': DoctorPage,
     '/patient': PatientPage,
     '/dashboard': Dashboard,
-    "/setting": Setting
+    "/setting": Setting,
+    '/welcome': PatientLogin,
+    '/patientview': PatientView
 }[path]  
 
 

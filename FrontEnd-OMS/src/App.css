@@ -22,7 +22,7 @@
   font-weight: 700;
   letter-spacing: 15px;
   font-family: Roboto;
-  color: rgb(0, 29, 252);
+  color: #001dfc;
 }
 
 .link {
@@ -36,4 +36,35 @@
   transition: all linear 100ms;
   color: rgb(80, 185, 241);
   text-decoration: underline;
+}
+
+.paginate .selected {
+  background: rgb(189, 192, 255) !important;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+}
+
+body.tablet {
+  background-image: url(/src/assets/picture/login-bg.png) !important;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.mobile {
+  background-image: url(/src/assets/picture/login-bg.png) !important;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.show {
+  transition: all linear 350ms;
+  opacity: 1;
 }

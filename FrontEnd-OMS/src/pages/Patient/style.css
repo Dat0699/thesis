@@ -6,3 +6,114 @@
     width: calc(100% - 170px);
     background-color: white;
 }
+
+.headerPatient {
+    width: calc(100% - 510px) !important;
+    max-height: 62px;
+    top: 31% !important;
+}
+
+.modal-title-patient {
+    z-index: 20;
+    position: fixed;
+    background: white;
+    height: 49px;
+    top: 41px;
+    width: calc(100% - 124px);
+}
+
+
+
+@media all and (min-width: 250px) and (max-width: 500px){
+    .searchPatient {
+        flex-direction: column !important;
+        top: -32px;
+        position: relative;
+       
+    }
+
+    .searchPatient #search {
+        position: relative;
+        top: -52px;
+    }
+}
+
+
+.table-patient {
+    width: calc(100% - 510px) !important;
+    height: 80vh;
+    position: absolute;
+    left: 14%;
+    top: 15%;
+}
+
+.body-table-patient {
+    height: calc(100% - 100px);
+}
+
+
+
+
+
+
+@media all and (min-width: 1250px){
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 500px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+
+    .smallHeaderPatient {
+        height: 235px !important;
+    }
+}
+
+@media all and (max-width: 1700px){
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 500px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+
+    .smallHeaderPatient {
+        height: 235px !important;
+    }
+
+    .doctorHeader{
+       gap: 0px !important;
+       justify-content: space-evenly;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 1250px){
+    .table-patient {
+        width: calc(100% - 221px) !important;
+        min-width: 500px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+
+    .doctorHeader{
+       gap: 150px !important;
+    }
+
+    .smallHeaderPatient {
+        height: 505px !important;
+    }
+
+
+}
+
+@media all and (min-width: 250px) and (max-width: 500px){
+    .btnAndTitle {
+        flex-direction: column;
+    }
+    .table-patient {
+        width: calc(100% - 100px);
+        min-width: 300px;
+        overflow-y: hidden;
+        overflow: hidden;
+    }
+}
